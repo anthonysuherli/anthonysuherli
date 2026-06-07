@@ -1,50 +1,49 @@
 ## Anthony Suherli
 
-Machine Learning Engineer / Researcher working on agentic AI and quantitative finance.
-At Vanguard's AI Garage I build production ML and multi-agent systems for investment
-management — and I come at it from a financial-engineering and peer-reviewed research
-background, not just prototypes.
+Hi — I'm an ML engineer / researcher. My day job is on Vanguard's AI Garage team, where
+I work on production ML and multi-agent systems for investment management. Over the last
+few years that's meant moving from fairly classical ML pipelines toward agentic setups
+and, more recently, knowledge systems that a lot of people end up depending on. I came
+into all of this from a financial-engineering and electrical-engineering background, with
+a few IEEE papers from earlier research days.
 
-Lately I've been deep into experimenting with **context engineering** — how you collect,
-curate, and structure the context an agent sees so it reasons reliably instead of
-guessing. Most of the projects below are experiments in that direction. (They also tend
-to share a number: *delapan* is Indonesian for **eight**.)
+Outside of work I've been spending most of my time on **context engineering** — basically,
+the question of how you feed an agent the right context so it reasons about something
+instead of guessing. It turns out that's most of the work, and it's where the interesting
+problems are: how you collect information, decide what's worth keeping, structure it, and
+keep it from going stale. The projects below are all me poking at different corners of that.
+(They also mostly share a number — *delapan* is Indonesian for eight, and the rest just
+kept the theme.)
 
-### Background
+### Things I'm tinkering with
 
-- **ML Engineer / Researcher, Vanguard — AI Garage** (2021–present). Drove the team from
-  classical production ML to an agentic SDLC to enterprise knowledge AI: multi-agent
-  orchestration, RAG, knowledge graphs, and AWS ML infrastructure for institutional use.
-- **M.S. Financial Engineering**, University of Southern California ·
-  **B.S. Electrical Engineering**, University of Washington.
-- IEEE-published research in forecasting and power-systems optimization.
+- **[delapan](https://github.com/anthonysuherli/delapan)** — the engine the others are
+  built on. You point it at a topic, it goes off and researches (plan → search → crawl →
+  extract → merge), and saves what it finds as structured notes you can reuse later instead
+  of re-deriving from scratch. Runs entirely on your machine (SQLite + sqlite-vec) and talks
+  over MCP, so tools like Claude Code can just use it.
 
-### Experiments in context engineering
+- **[br8n](https://github.com/anthonysuherli/br8n)** — a small experiment in not losing your
+  train of thought. When you get interrupted, it jots down what you were actually doing (the
+  one-line "I think the bug is X" hypothesis, not just which files were open) and hands it
+  back as a quick resume card when you return. It's a fork of delapan, repurposed for
+  capturing developer context.
 
-- **[delapan](https://github.com/anthonysuherli/delapan)** — Local-first engine for
-  context-aware AI tooling. Researches a topic (plan → search → crawl → extract → merge),
-  persists structured findings as durable reusable context, and serves it over MCP. Runs
-  fully local on SQLite + sqlite-vec.
-- **[br8n](https://github.com/anthonysuherli/br8n)** — Portable personal knowledge base
-  with a user-directed context graph. Captures developer intent (a one-line hypothesis)
-  on interruption and replays it as a 30-second "where I was" resume card — killing the
-  ~9.5-minute context-rebuild tax. A self-contained fork of the delapan engine.
-- **[person8](https://github.com/anthonysuherli/person8)** — Goal-driven developer
-  knowledge agent (Google Cloud Rapid Agent Hackathon). Plans, searches over Elastic, and
-  returns cited answers with an evidence-anchored next action.
-- **[hunter8](https://github.com/anthonysuherli/hunter8)** — Playwright CLI that
-  auto-submits job applications from an Excel tracker, pausing for human review when
-  open-ended fields appear.
+- **[person8](https://github.com/anthonysuherli/person8)** — a hackathon project (Google
+  Cloud Rapid Agent). An agent that tries to actually finish a task rather than just chat:
+  it plans, searches over Elastic, and comes back with a cited answer plus a sensible next
+  step.
 
-### Focus
+- **[hunter8](https://github.com/anthonysuherli/hunter8)** — a much more down-to-earth one.
+  A Playwright script that fills out job applications from a spreadsheet and stops to let me
+  handle anything open-ended. Mostly built because applying to jobs by hand is tedious.
 
-Context engineering — RAG, knowledge / context graphs, entity resolution, evidence and
-confidence scoring · multi-agent orchestration and contract-driven agent SDLC · MCP and
-custom agent skills · production ML on AWS · quantitative finance.
+### Background, roughly
 
-**Stack:** Python · TypeScript · SQL · R · MATLAB · Claude Code / Cursor · AWS
-(Lambda, Step Functions, SageMaker, Bedrock) · Supabase / pgvector.
+- ML engineer / researcher at **Vanguard (AI Garage)** since 2021.
+- **M.S. Financial Engineering**, USC · **B.S. Electrical Engineering**, University of Washington.
+- Mostly live in Python these days; also TypeScript, SQL, R, MATLAB. Comfortable across the
+  usual AWS ML stack and the agent/MCP tooling.
 
-### Connect
-
+Always happy to chat about agents, context, or anything in that neighborhood —
 [LinkedIn](https://linkedin.com/in/suherli) · anthonysuherli@gmail.com
