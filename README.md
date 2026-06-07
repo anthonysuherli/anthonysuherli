@@ -15,7 +15,7 @@ keep it from going stale. The projects below are all me poking at different corn
 (They also mostly share a number — *delapan* is Indonesian for eight, and the rest just
 kept the theme.)
 
-### Things I'm tinkering with
+### Active Projects
 
 - **[delapan](https://github.com/anthonysuherli/delapan)** — the engine the others are
   built on. You point it at a topic, it goes off and researches (plan → search → crawl →
