@@ -11,18 +11,10 @@ different corners of that. (They also share a number — *delapan* is Indonesian
 
 ### Active Projects
 
-- **[delapan](https://github.com/anthonysuherli/delapan)** — the engine the rest are built
-  on. Point it at a topic; it researches (plan → search → crawl → extract → merge) and saves
-  structured notes you can reuse. Runs locally (SQLite + sqlite-vec), talks over MCP, so
-  tools like Claude Code can use it.
-- **[br8n](https://github.com/anthonysuherli/br8n)** — context capture for when you get
-  interrupted. Jots down what you were *actually* doing (the "I think the bug is X"
-  hypothesis) and hands it back as a resume card. A fork of delapan.
-- **[person8](https://github.com/anthonysuherli/person8)** — hackathon project (Google Cloud
-  Rapid Agent). An agent that finishes a task: plans, searches over Elastic, returns a cited
-  answer plus a next step.
-- **[hunter8](https://github.com/anthonysuherli/hunter8)** — a Playwright script that fills
-  out job applications from a spreadsheet, pausing for anything open-ended.
+- **[delapan](https://github.com/anthonysuherli/delapan)** — a local-first research engine that you point at a topic and it researches, then saves structured, reusable notes; runs on SQLite + sqlite-vec and talks over MCP.
+- **[br8n](https://github.com/anthonysuherli/br8n)** — context capture that jots down what you were *actually* doing when you get interrupted and hands it back as a resume card; a fork of delapan.
+- **[person8](https://github.com/anthonysuherli/person8)** — a hackathon agent (Google Cloud Rapid Agent) that plans, searches over Elastic, and returns a cited answer plus a next step.
+- **[hunter8](https://github.com/anthonysuherli/hunter8)** — a Playwright script that fills out job applications from a spreadsheet, pausing for anything open-ended.
 
 ### Background
 
