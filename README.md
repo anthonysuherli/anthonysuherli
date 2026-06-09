@@ -1,11 +1,10 @@
 ## Anthony Suherli
 
 ML engineer / researcher building production ML and multi-agent systems for investment
-management. Background in financial and electrical engineering (a few IEEE papers along the
-way).
+management. 
 
-Lately I've been deep down the **context engineering** rabbit hole — how you feed an agent
-the right context so it reasons instead of guesses.
+Lately I've been interested in exploring the **context engineering** rabbit hole — how you feed an agent
+the right context so it efficiently reasons instead of guesses.
 
 ### Active Projects
 
