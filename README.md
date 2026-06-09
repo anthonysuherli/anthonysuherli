@@ -5,9 +5,7 @@ management. Background in financial and electrical engineering (a few IEEE paper
 way).
 
 Lately I've been deep down the **context engineering** rabbit hole — how you feed an agent
-the right context so it reasons instead of guesses. Collecting information, deciding what's
-worth keeping, structuring it, keeping it from going stale. The projects below poke at
-different corners of that. (They also share a number — *delapan* is Indonesian for eight.)
+the right context so it reasons instead of guesses.
 
 ### Active Projects
 
