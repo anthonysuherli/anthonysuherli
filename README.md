@@ -9,8 +9,9 @@ the right context so it efficiently reasons instead of guesses.
 ### Active Projects
 
 - **[delapan](https://github.com/anthonysuherli/delapan)** — a local-first research engine that you point at a topic and it researches, then saves structured, reusable notes; runs on SQLite + sqlite-vec and talks over MCP.
-- **[br8n](https://github.com/anthonysuherli/br8n)** — context capture that jots down what you were *actually* doing when you get interrupted and hands it back as a resume card; a fork of delapan.
 - **[person8](https://github.com/anthonysuherli/person8-gc)** — a hackathon agent (Google Cloud Rapid Agent) that plans, searches over Elastic, and returns a cited answer plus a next step.
+- **[br8n](https://github.com/anthonysuherli/br8n)** — context capture that jots down what you were *actually* doing when you get interrupted and hands it back as a resume card; a fork of delapan.
+
 
 ### Background
 
