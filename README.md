@@ -1,6 +1,6 @@
 ## Anthony Suherli
 
-ML engineer / researcher building production ML and multi-agent systems for investment
+AI engineer / researcher building production ML and multi-agent systems for investment
 management. 
 
 Lately I've been interested in exploring the **context engineering** rabbit hole — how you feed an agent
