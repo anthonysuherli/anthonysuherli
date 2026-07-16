@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Anthony Suherli — AI systems from evidence to action</title>
+  <desc id="desc">A dark green animated banner showing an engineering loop from intent through evidence, context, agents, evaluations, and action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071310"/>
+      <stop offset="0.55" stop-color="#0a1b17"/>
+      <stop offset="1" stop-color="#11172a"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ee1a0"/>
+      <stop offset="0.52" stop-color="#62d7ff"/>
+      <stop offset="1" stop-color="#9d8cff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#62d7ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#62d7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="flow-path" d="M85 282 H1112"/>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .flow { stroke-dasharray: 1040; animation: draw 2.8s cubic-bezier(.2,.8,.2,1) .25s both; }
+      .node { opacity: 1; animation: wake .45s ease-out both; }
+      .n1 { animation-delay: .45s; } .n2 { animation-delay: .85s; }
+      .n3 { animation-delay: 1.25s; } .n4 { animation-delay: 1.65s; }
+      .n5 { animation-delay: 2.05s; } .n6 { animation-delay: 2.45s; }
+      .orbit { stroke-dasharray: 8 12; animation: orbit-in 2.2s ease-out .4s both; }
+      .cursor { animation: cursor-in 3.1s ease-out .35s both; }
+      @keyframes draw { from { stroke-dashoffset: 1040; } to { stroke-dashoffset: 0; } }
+      @keyframes wake { from { opacity: .45; } to { opacity: 1; } }
+      @keyframes orbit-in { from { stroke-dashoffset: 150; opacity: 0; } to { stroke-dashoffset: 0; opacity: .7; } }
+      @keyframes cursor-in { 0% { opacity: 0; transform: translateX(-18px); } 18%, 82% { opacity: 1; } 100% { opacity: .55; transform: translateX(0); } }
+      @media (prefers-reduced-motion: reduce) {
+        .flow, .node, .orbit, .cursor { animation: none; stroke-dashoffset: 0; opacity: 1; }
+        .traveler { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="1000" cy="82" r="250" fill="url(#glow)"/>
+  <path d="M0 58 H1200 M0 118 H1200 M0 178 H1200 M0 238 H1200 M0 298 H1200" stroke="#b8d8cd" stroke-opacity="0.035"/>
+  <path d="M100 0 V360 M300 0 V360 M500 0 V360 M700 0 V360 M900 0 V360 M1100 0 V360" stroke="#b8d8cd" stroke-opacity="0.035"/>
+
+  <g class="sans">
+    <text x="64" y="78" fill="#73e8b1" font-size="14" font-weight="700" letter-spacing="4">AI ENGINEER / RESEARCHER</text>
+    <text x="60" y="145" fill="#f3fff9" font-size="58" font-weight="760" letter-spacing="-1.5">ANTHONY SUHERLI</text>
+    <text x="64" y="190" fill="#b8ccc5" font-size="22" font-weight="450">Building AI systems that move from evidence to action.</text>
+  </g>
+
+  <g transform="translate(970 116)">
+    <ellipse class="orbit" cx="0" cy="0" rx="108" ry="54" fill="none" stroke="url(#signal)" stroke-width="1.5" opacity=".7" transform="rotate(-18)"/>
+    <ellipse class="orbit" cx="0" cy="0" rx="82" ry="40" fill="none" stroke="#62d7ff" stroke-width="1" opacity=".35" transform="rotate(32)"/>
+    <circle cx="0" cy="0" r="25" fill="#102f29" stroke="#73e8b1" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="7" fill="#73e8b1" filter="url(#soft-glow)"/>
+    <circle cx="-93" cy="29" r="5" fill="#62d7ff"/>
+    <circle cx="87" cy="-35" r="5" fill="#9d8cff"/>
+    <circle cx="72" cy="47" r="3.5" fill="#73e8b1"/>
+  </g>
+
+  <g>
+    <path class="flow" d="M85 282 H1112" fill="none" stroke="url(#signal)" stroke-width="2" stroke-linecap="round"/>
+    <circle class="traveler" r="6" fill="#f3fff9" filter="url(#soft-glow)">
+      <animateMotion dur="3.3s" begin="0.35s" repeatCount="1" fill="freeze">
+        <mpath href="#flow-path"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <g class="mono" font-size="13" text-anchor="middle">
+    <g class="node n1" transform="translate(85 282)">
+      <circle r="14" fill="#0d2b22" stroke="#4ee1a0" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">INTENT</text>
+    </g>
+    <g class="node n2" transform="translate(290 282)">
+      <circle r="14" fill="#0d2b22" stroke="#55e0b2" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">EVIDENCE</text>
+    </g>
+    <g class="node n3" transform="translate(495 282)">
+      <circle r="14" fill="#0d2930" stroke="#62d7ff" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">CONTEXT</text>
+    </g>
+    <g class="node n4" transform="translate(700 282)">
+      <circle r="14" fill="#0d2930" stroke="#69c8ff" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">AGENTS</text>
+    </g>
+    <g class="node n5" transform="translate(905 282)">
+      <circle r="14" fill="#1d2037" stroke="#8fa7ff" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">EVALS</text>
+    </g>
+    <g class="node n6" transform="translate(1112 282)">
+      <circle r="14" fill="#25203d" stroke="#9d8cff" stroke-width="2"/>
+      <text y="39" fill="#a9beb7">ACTION</text>
+    </g>
+  </g>
+
+  <text class="mono cursor" x="64" y="225" fill="#70dba9" font-size="13">$ inspect → orchestrate → measure → ship ▌</text>
+</svg>
