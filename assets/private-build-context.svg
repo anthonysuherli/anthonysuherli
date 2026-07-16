@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 455" role="img" aria-labelledby="title desc">
+  <title id="title">Private build context, July 2025 to July 2026</title>
+  <desc id="desc">An anonymized horizontal bar chart showing 2,053 authored commits across 11 active private repositories. The overlapping themes are product and developer tooling 740, evaluation and reliability 449, data cloud and retrieval 339, applied research 244, agent and context systems 231, and delivery and platform 170.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081512"/>
+      <stop offset="1" stop-color="#11172a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#46d997"/>
+      <stop offset="0.6" stop-color="#5ccff4"/>
+      <stop offset="1" stop-color="#9584f2"/>
+    </linearGradient>
+    <filter id="bar-glow" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .bar { transform-box: fill-box; transform-origin: left center; transform: scaleX(1); animation: grow 1.05s cubic-bezier(.2,.8,.2,1) both; }
+      .b1 { animation-delay: .15s; } .b2 { animation-delay: .28s; }
+      .b3 { animation-delay: .41s; } .b4 { animation-delay: .54s; }
+      .b5 { animation-delay: .67s; } .b6 { animation-delay: .80s; }
+      .value { opacity: 1; animation: show .35s ease-out both; }
+      .v1 { animation-delay: .95s; } .v2 { animation-delay: 1.08s; }
+      .v3 { animation-delay: 1.21s; } .v4 { animation-delay: 1.34s; }
+      .v5 { animation-delay: 1.47s; } .v6 { animation-delay: 1.60s; }
+      @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .bar { animation: none; transform: scaleX(1); }
+        .value { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="455" rx="22" fill="url(#panel)"/>
+  <path d="M0 74 H1000 M0 146 H1000 M0 218 H1000 M0 290 H1000 M0 362 H1000" stroke="#d9fff0" stroke-opacity=".035"/>
+
+  <g class="sans">
+    <text x="38" y="47" fill="#f3fff9" font-size="22" font-weight="700">Private build context</text>
+    <text x="38" y="72" fill="#9fb7ae" font-size="13">ANONYMIZED COMMIT THEMES · JUL 2025–JUL 2026 · THEMES OVERLAP</text>
+  </g>
+
+  <g class="mono" text-anchor="end">
+    <text x="825" y="43" fill="#73e8b1" font-size="26" font-weight="700">2,053</text>
+    <text x="825" y="63" fill="#9fb7ae" font-size="11">AUTHORED COMMITS</text>
+    <text x="954" y="43" fill="#7ed8ff" font-size="26" font-weight="700">11</text>
+    <text x="954" y="63" fill="#9fb7ae" font-size="11">ACTIVE REPOS</text>
+  </g>
+
+  <g class="sans" fill="#dcebe5" font-size="14">
+    <text x="38" y="127">Product + developer tooling</text>
+    <text x="38" y="181">Evaluation + reliability</text>
+    <text x="38" y="235">Data, cloud + retrieval</text>
+    <text x="38" y="289">Applied research</text>
+    <text x="38" y="343">Agent + context systems</text>
+    <text x="38" y="397">Delivery + platform</text>
+  </g>
+
+  <g fill="#c7ddd5" opacity=".12">
+    <rect x="270" y="110" width="600" height="18" rx="9"/>
+    <rect x="270" y="164" width="600" height="18" rx="9"/>
+    <rect x="270" y="218" width="600" height="18" rx="9"/>
+    <rect x="270" y="272" width="600" height="18" rx="9"/>
+    <rect x="270" y="326" width="600" height="18" rx="9"/>
+    <rect x="270" y="380" width="600" height="18" rx="9"/>
+  </g>
+
+  <g fill="url(#bar)" filter="url(#bar-glow)">
+    <rect class="bar b1" x="270" y="110" width="560" height="18" rx="9"/>
+    <rect class="bar b2" x="270" y="164" width="340" height="18" rx="9"/>
+    <rect class="bar b3" x="270" y="218" width="257" height="18" rx="9"/>
+    <rect class="bar b4" x="270" y="272" width="185" height="18" rx="9"/>
+    <rect class="bar b5" x="270" y="326" width="175" height="18" rx="9"/>
+    <rect class="bar b6" x="270" y="380" width="129" height="18" rx="9"/>
+  </g>
+
+  <g class="mono" fill="#f3fff9" font-size="13">
+    <text class="value v1" x="846" y="125">740</text>
+    <text class="value v2" x="626" y="179">449</text>
+    <text class="value v3" x="543" y="233">339</text>
+    <text class="value v4" x="471" y="287">244</text>
+    <text class="value v5" x="461" y="341">231</text>
+    <text class="value v6" x="415" y="395">170</text>
+  </g>
+
+  <text class="mono" x="270" y="431" fill="#829a91" font-size="11">0</text>
+  <text class="mono" x="870" y="431" fill="#829a91" font-size="11" text-anchor="end">relative keyword signal →</text>
+</svg>

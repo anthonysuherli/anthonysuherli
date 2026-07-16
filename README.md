@@ -1,23 +1,89 @@
-## Anthony Suherli
+<div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Anthony Suherli — AI systems from evidence to action" />
 
-AI engineer / researcher building production ML and multi-agent systems for investment
-management. 
+  <br />
 
-Lately I've been interested in exploring the **context engineering** rabbit hole — how you feed an agent
-the right context so it efficiently reasons instead of guesses.
+  <strong>AI engineer / researcher building production ML and multi-agent systems in investment management.</strong>
 
-### Active Projects
+  <br />
 
-- **[delapan](https://github.com/anthonysuherli/delapan)** — a local-first research engine that you point at a topic and it researches, then saves structured, reusable notes; runs on SQLite + sqlite-vec and talks over MCP.
-- **[person8](https://github.com/anthonysuherli/person8-gc)** — a hackathon agent (Google Cloud Rapid Agent) that plans, searches over Elastic, and returns a cited answer plus a next step.
-- **[br8n](https://github.com/anthonysuherli/br8n)** — context capture that jots down what you were *actually* doing when you get interrupted and hands it back as a resume card; a fork of delapan.
+  <sub>Context engineering · agent orchestration · retrieval · evaluations · product delivery</sub>
 
+  <br /><br />
+
+  <a href="https://delapan.ai/">delapan.ai</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/suherli/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:anthonysuherli@gmail.com">Email</a>
+</div>
+
+### I build the layer between a model and a useful decision.
+
+My work sits where research meets production: turning ambiguous problems into inspectable agent workflows, durable context, measurable evaluations, and software that people can actually operate.
+
+Right now I am deep in the **context engineering** rabbit hole—how agents acquire the right evidence, share state without drowning in it, and know when they have enough coverage to act.
+
+> **Working thesis:** reliable agents are less about one perfect prompt and more about explicit context boundaries, orchestration, and feedback loops that make failure legible.
+
+### Selected builds
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/anthonysuherli/8queens">8queens ↗</a></h3>
+      A deep-research agent society where planners, researchers, a critic, and a synthesizer coordinate through a shared, coverage-banded findings brain—benchmarked against a single-agent baseline.
+      <br /><br />
+      <code>multi-agent</code> <code>knowledge graph</code> <code>Qwen</code> <code>evals</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/anthonysuherli/br8n">br8n ↗</a></h3>
+      One-command context capture and instant resume for developers: preserve the hypothesis in your head, then return to a compact “where I was” card instead of rebuilding context.
+      <br /><br />
+      <code>MCP</code> <code>context graph</code> <code>Python</code> <code>iOS</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/anthonysuherli/person8-gc">person8 ↗</a></h3>
+      A cited-answer agent that plans, searches over Elastic, synthesizes evidence, and returns a concrete next step—built for the Google Cloud Rapid Agent hackathon.
+      <br /><br />
+      <code>agents</code> <code>Elastic</code> <code>Google Cloud</code> <code>citations</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://delapan.ai/">delapan.ai ↗</a></h3>
+      Context-aware research infrastructure: plan → search → crawl → extract → merge, persist structured findings as durable memory, then serve that context to AI tools over MCP.
+      <br /><br />
+      <code>research</code> <code>retrieval</code> <code>knowledge base</code> <code>MCP</code>
+    </td>
+  </tr>
+</table>
+
+### What the public graph does not show
+
+<div align="center">
+  <img src="./assets/private-build-context.svg" width="100%" alt="An anonymized chart of 2,053 authored commits across 11 active private repositories, grouped into overlapping engineering themes" />
+</div>
+
+<details>
+  <summary><strong>How I handle private contribution context</strong></summary>
+  <br />
+  This snapshot covers July 2025–July 2026. It counts commits authored by this account in accessible private repositories, then groups commit subjects into broad, overlapping engineering themes. Repository names, organizations, links, and commit messages are intentionally excluded.
+</details>
+
+### The toolkit
+
+**Core:** Python · TypeScript · SQL · FastAPI · Pydantic · SQLite / pgvector · Elasticsearch<br />
+**AI systems:** multi-agent orchestration · MCP · RAG / retrieval · knowledge graphs · LLM evaluations<br />
+**Delivery:** AWS · Google Cloud · Docker · CI/CD · product discovery
 
 ### Background
 
-- ML engineer / researcher since 2021.
+- AI / ML engineer and researcher since 2021.
 - **M.S. Financial Engineering**, USC · **B.S. Electrical Engineering**, UW.
-- Mostly Python; also TypeScript, SQL, R, MATLAB. AWS ML stack + agent/MCP tooling.
+- I like systems with visible reasoning, explicit tradeoffs, and a short path from evidence to action.
 
-Happy to chat about agents and context — [LinkedIn](https://linkedin.com/in/suherli) ·
-anthonysuherli@gmail.com
+<div align="center">
+  <br />
+  <sub>Always happy to compare notes on agents, context, and building the feedback loop around both.</sub>
+</div>
