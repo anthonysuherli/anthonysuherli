@@ -26,21 +26,21 @@ Right now I am deep in the **context engineering** rabbit hole—how agents acqu
 
 > **Working thesis:** reliable agents are less about one perfect prompt and more about explicit context boundaries, orchestration, and feedback loops that make failure legible.
 
-### Selected builds
+### Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/anthonysuherli/8queens">8queens ↗</a></h3>
-      A deep-research agent society where planners, researchers, a critic, and a synthesizer coordinate through a shared, coverage-banded findings brain—benchmarked against a single-agent baseline.
+      <h3>Misconception Studio</h3>
+      A teacher-controlled active evidence loop for formative assessment: test candidate reasoning patterns against matching and conflicting observations, abstain when evidence is weak, then propose a teacher-reviewed follow-up.
       <br /><br />
-      <code>multi-agent</code> <code>knowledge graph</code> <code>Qwen</code> <code>evals</code>
+      <code>in development</code> <code>OpenAI Build Week</code> <code>education</code> <code>evidence loops</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/anthonysuherli/br8n">br8n ↗</a></h3>
-      One-command context capture and instant resume for developers: preserve the hypothesis in your head, then return to a compact “where I was” card instead of rebuilding context.
+      <h3><a href="https://github.com/anthonysuherli/hunter8">hunter8 ↗</a></h3>
+      A Playwright CLI that fills job applications from an Excel tracker and pauses for human review when an ATS asks for open-ended judgment instead of blindly submitting.
       <br /><br />
-      <code>MCP</code> <code>context graph</code> <code>Python</code> <code>iOS</code>
+      <code>Playwright</code> <code>human-in-the-loop</code> <code>automation</code> <code>Python</code>
     </td>
   </tr>
   <tr>
@@ -51,7 +51,15 @@ Right now I am deep in the **context engineering** rabbit hole—how agents acqu
       <code>agents</code> <code>Elastic</code> <code>Google Cloud</code> <code>citations</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://delapan.ai/">delapan.ai ↗</a></h3>
+      <h3><a href="https://github.com/anthonysuherli/8queens">queens8 ↗</a></h3>
+      A deep-research agent society where planners, researchers, a critic, and a synthesizer coordinate through a shared, coverage-banded findings brain—benchmarked against a single-agent baseline.
+      <br /><br />
+      <code>multi-agent</code> <code>knowledge graph</code> <code>Qwen</code> <code>evals</code>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://delapan.ai/">delapan ↗</a></h3>
       Context-aware research infrastructure: plan → search → crawl → extract → merge, persist structured findings as durable memory, then serve that context to AI tools over MCP.
       <br /><br />
       <code>research</code> <code>retrieval</code> <code>knowledge base</code> <code>MCP</code>
